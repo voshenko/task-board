@@ -1,0 +1,98 @@
+* {
+   box-sizing: border-box;
+}
+
+body {
+   background-image: url(./assets/tile.jpg);
+
+}
+
+.header {
+   display: block;
+   margin: 40px 0px 10px 0px;
+   text-align: center;
+   font-family: "Brush Script MT";
+   color: rgba(4, 7, 177, 0.911);
+}
+
+.header h1 {
+   font-size: 75px;
+}
+
+.formControl {
+   margin: auto;
+   width: 500px;
+   height: 190px;
+   text-align: start;
+   background-image: url(./assets/formbg.jpg);
+}
+
+.form {
+   width: 500px;
+   height: 190px;
+}
+
+.form input {
+   margin: 15px 0px 5px 80px;
+}
+
+.form button {
+   margin: 0px 0px 0px 80px;
+   height: 32px;
+}
+
+#contenierDiv {
+   display: inline-block;
+}
+
+#contenierDiv div {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+nav {
+   display: flex;
+   justify-content: start;
+   font-size: large;
+   font-weight: bold;
+   color: red;
+}
+
+.note {
+   display: flex;
+   justify-content: right;
+   background-image: url(./assets/notebg.png);
+   height: 250px;
+   width: 200px;
+   margin: 40px;
+   padding: 0%;
+
+}
+
+textarea {
+   outline: none;
+   border: none;
+
+   padding: 15px 23px 50px 10px;
+   background: none;
+
+}
+
+.time {
+   color: red;
+   font-size: small;
+   font-weight: bold;
+   margin-right: 110px;
+
+}
+
+.delete {
+   border: none;
+   background: none;
+   opacity: 0;
+
+}
+
+.delete:hover {
+   opacity: 1;
+}
